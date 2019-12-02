@@ -58,6 +58,12 @@
     <Compile Include="Historia.Designer.cs">
       <DependentUpon>Historia.cs</DependentUpon>
     </Compile>
+    <Compile Include="História1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="História1.Designer.cs">
+      <DependentUpon>História1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Jogo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Historia.resx">
       <DependentUpon>Historia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="História1.resx">
+      <DependentUpon>História1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Jogo.resx">
       <DependentUpon>Jogo.cs</DependentUpon>
@@ -121,6 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\jogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

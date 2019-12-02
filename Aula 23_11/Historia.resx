@@ -117,4 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label_texto.Text" xml:space="preserve">
+    <value>Na noite do dia 07/11 a polícia de 
+Atenas é notificada pelo 
+assassinato do Prefeito e Empresário,
+cujo nome é Cláudio.
+
+Foi morto a facadas dentro de sua 
+própria mansão. Após a investigação
+a polícia chegou a 8 suspeitos.
+</value>
+  </data>
 </root>

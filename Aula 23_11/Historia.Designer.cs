@@ -28,29 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label_historia = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Historia));
+            this.label_título = new System.Windows.Forms.Label();
+            this.label_texto = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label_historia
+            // label_título
             // 
-            this.label_historia.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label_historia.AutoSize = true;
-            this.label_historia.Font = new System.Drawing.Font("Press Start 2P", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_historia.Location = new System.Drawing.Point(288, 129);
-            this.label_historia.Name = "label_historia";
-            this.label_historia.Size = new System.Drawing.Size(169, 19);
-            this.label_historia.TabIndex = 0;
-            this.label_historia.Text = "História";
-            this.label_historia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_título.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label_título.AutoSize = true;
+            this.label_título.Font = new System.Drawing.Font("Press Start 2P", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_título.Location = new System.Drawing.Point(258, 81);
+            this.label_título.Name = "label_título";
+            this.label_título.Size = new System.Drawing.Size(169, 19);
+            this.label_título.TabIndex = 0;
+            this.label_título.Text = "História";
+            this.label_título.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label_texto
+            // 
+            this.label_texto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label_texto.AutoSize = true;
+            this.label_texto.Font = new System.Drawing.Font("Press Start 2P", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_texto.Location = new System.Drawing.Point(65, 192);
+            this.label_texto.Name = "label_texto";
+            this.label_texto.Size = new System.Drawing.Size(599, 120);
+            this.label_texto.TabIndex = 1;
+            this.label_texto.Text = resources.GetString("label_texto.Text");
+            this.label_texto.Click += new System.EventHandler(this.Label_texto_Click);
             // 
             // Historia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(734, 563);
-            this.Controls.Add(this.label_historia);
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ClientSize = new System.Drawing.Size(734, 505);
+            this.Controls.Add(this.label_texto);
+            this.Controls.Add(this.label_título);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Historia";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Historia";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -59,6 +77,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label_historia;
+        private System.Windows.Forms.Label label_título;
+        private System.Windows.Forms.Label label_texto;
     }
 }

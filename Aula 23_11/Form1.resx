@@ -130,9 +130,8 @@
   <data name="panel_header.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox_minimizar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 19</value>
+  <data name="&gt;&gt;panel_vertical.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btn_jogo.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -140,6 +139,10 @@
   <data name="btn_historia.Text" xml:space="preserve">
     <value>   História</value>
   </data>
+  <data name="&gt;&gt;panel_conteudo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btn_historia.Font" type="System.Drawing.Font, System.Drawing">
     <value>Press Start 2P, 12pt, style=Bold</value>
   </data>
@@ -147,11 +150,8 @@
   <data name="panel3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;pictureBox_maximizar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_jogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>972, 613</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
@@ -183,8 +183,8 @@
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>972, 613</value>
   </data>
-  <data name="panel_vertical.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
+  <data name="btn_historia.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="&gt;&gt;pictureBox_menu.Parent" xml:space="preserve">
     <value>panel_header</value>
@@ -192,8 +192,8 @@
   <data name="&gt;&gt;pictureBox_minimizar.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;pictureBox_maximizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pictureBox_fechar.Location" type="System.Drawing.Point, System.Drawing">
     <value>711, 3</value>
@@ -204,8 +204,8 @@
   <data name="panel_header.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="pictureBox_maximizar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 19</value>
+  <data name="&gt;&gt;panel_hist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox_maximizar.Parent" xml:space="preserve">
     <value>panel_header</value>
@@ -213,11 +213,11 @@
   <data name="pictureBox_restaurar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>972, 613</value>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel_conteudo</value>
   </data>
-  <data name="btn_historia.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="panel_conteudo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="pictureBox_minimizar.Location" type="System.Drawing.Point, System.Drawing">
     <value>659, 3</value>
@@ -225,41 +225,50 @@
   <data name="&gt;&gt;panel_header.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="panel_vertical.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="&gt;&gt;panel_vertical.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;pictureBox_menu.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="panel_header.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 0</value>
-  </data>
   <data name="panel_conteudo.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_fechar.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;pictureBox_maximizar.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="panel_conteudo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="pictureBox_cont.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="btn_historia.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;pictureBox_cont.Parent" xml:space="preserve">
+    <value>panel_conteudo</value>
+  </data>
   <data name="&gt;&gt;panel_vertical.Parent" xml:space="preserve">
     <value>panel3</value>
+  </data>
+  <data name="pictureBox_cont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 551</value>
   </data>
   <data name="pictureBox_maximizar.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 501</value>
+  </data>
   <data name="&gt;&gt;panel3.Name" xml:space="preserve">
     <value>panel3</value>
   </data>
-  <data name="&gt;&gt;pictureBox_minimizar.Name" xml:space="preserve">
-    <value>pictureBox_minimizar</value>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox_fechar.Parent" xml:space="preserve">
     <value>panel_header</value>
@@ -267,20 +276,20 @@
   <data name="&gt;&gt;pictureBox_fechar.Name" xml:space="preserve">
     <value>pictureBox_fechar</value>
   </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
   <data name="btn_jogo.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopLeft</value>
   </data>
   <data name="&gt;&gt;pictureBox_restaurar.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btn_historia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 143</value>
-  </data>
   <data name="pictureBox_restaurar.Location" type="System.Drawing.Point, System.Drawing">
     <value>685, 3</value>
   </data>
   <data name="&gt;&gt;panel_conteudo.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="pictureBox_restaurar.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -288,32 +297,80 @@
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;pictureBox_fechar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_cont.Name" xml:space="preserve">
+    <value>pictureBox_cont</value>
+  </data>
   <data name="&gt;&gt;btn_jogo.Parent" xml:space="preserve">
     <value>panel_vertical</value>
   </data>
   <data name="&gt;&gt;btn_historia.Name" xml:space="preserve">
     <value>btn_historia</value>
   </data>
-  <data name="pictureBox_restaurar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="&gt;&gt;panel_header.Name" xml:space="preserve">
+    <value>panel_header</value>
+  </data>
+  <data name="pictureBox_maximizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 19</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_cont.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;btn_historia.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="pictureBox_menu.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
-  <data name="&gt;&gt;panel_vertical.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;panel_hist.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_historia.Parent" xml:space="preserve">
+    <value>panel_vertical</value>
+  </data>
+  <data name="&gt;&gt;btn_jogo.Name" xml:space="preserve">
+    <value>btn_jogo</value>
+  </data>
+  <data name="pictureBox_minimizar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="pictureBox_maximizar.Location" type="System.Drawing.Point, System.Drawing">
     <value>685, 3</value>
   </data>
+  <data name="&gt;&gt;pictureBox_cont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_minimizar.Name" xml:space="preserve">
+    <value>pictureBox_minimizar</value>
+  </data>
   <data name="pictureBox_minimizar.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;panel_header.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="panel_hist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 40</value>
+  </data>
+  <data name="panel_conteudo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 50</value>
+  </data>
+  <data name="&gt;&gt;panel_header.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
   </data>
   <data name="btn_jogo.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 46</value>
@@ -327,6 +384,9 @@
   <data name="pictureBox_maximizar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
+  <data name="pictureBox_minimizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 19</value>
+  </data>
   <data name="&gt;&gt;pictureBox_restaurar.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
@@ -336,8 +396,8 @@
   <data name="&gt;&gt;pictureBox_minimizar.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="panel_conteudo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 50</value>
+  <data name="panel_header.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 0</value>
   </data>
   <data name="&gt;&gt;pictureBox_restaurar.Name" xml:space="preserve">
     <value>pictureBox_restaurar</value>
@@ -345,8 +405,8 @@
   <data name="panel_vertical.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 613</value>
   </data>
-  <data name="pictureBox_fechar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;btn_jogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Form1</value>
@@ -372,35 +432,38 @@
   <data name="pictureBox_menu.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 12</value>
   </data>
-  <data name="&gt;&gt;panel_header.Name" xml:space="preserve">
-    <value>panel_header</value>
+  <data name="btn_historia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 143</value>
   </data>
   <data name="btn_jogo.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 209</value>
   </data>
-  <data name="&gt;&gt;btn_historia.Parent" xml:space="preserve">
-    <value>panel_vertical</value>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>panel_conteudo</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="pictureBox_fechar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="btn_historia.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 40</value>
+  </data>
+  <data name="pictureBox_fechar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="panel_header.Size" type="System.Drawing.Size, System.Drawing">
     <value>734, 50</value>
   </data>
-  <data name="&gt;&gt;btn_jogo.Name" xml:space="preserve">
-    <value>btn_jogo</value>
-  </data>
-  <data name="&gt;&gt;pictureBox_fechar.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="panel_vertical.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
   </data>
   <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox_fechar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btn_historia.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="pictureBox_fechar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -408,17 +471,23 @@
   <data name="&gt;&gt;panel_header.Parent" xml:space="preserve">
     <value>panel3</value>
   </data>
+  <data name="&gt;&gt;panel_hist.Parent" xml:space="preserve">
+    <value>panel_conteudo</value>
+  </data>
   <data name="btn_jogo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="pictureBox_minimizar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="pictureBox_menu.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
-  <data name="&gt;&gt;panel_conteudo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="pictureBox_menu.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="panel_hist.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;panel_vertical.Name" xml:space="preserve">
     <value>panel_vertical</value>
@@ -426,8 +495,11 @@
   <data name="pictureBox_menu.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 22</value>
   </data>
-  <data name="panel_vertical.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="pictureBox_restaurar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;panel_hist.Name" xml:space="preserve">
+    <value>panel_hist</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

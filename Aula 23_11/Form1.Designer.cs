@@ -30,39 +30,37 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel_conteudo = new System.Windows.Forms.Panel();
             this.panel_header = new System.Windows.Forms.Panel();
-            this.panel_vertical = new System.Windows.Forms.Panel();
             this.pictureBox_menu = new System.Windows.Forms.PictureBox();
             this.pictureBox_fechar = new System.Windows.Forms.PictureBox();
             this.pictureBox_minimizar = new System.Windows.Forms.PictureBox();
             this.pictureBox_restaurar = new System.Windows.Forms.PictureBox();
             this.pictureBox_maximizar = new System.Windows.Forms.PictureBox();
+            this.panel_vertical = new System.Windows.Forms.Panel();
             this.btn_jogo = new System.Windows.Forms.Button();
             this.btn_historia = new System.Windows.Forms.Button();
+            this.panel_conteudo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
             this.panel_header.SuspendLayout();
-            this.panel_vertical.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_menu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_fechar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_minimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_restaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_maximizar)).BeginInit();
+            this.panel_vertical.SuspendLayout();
+            this.panel_conteudo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
             // 
             resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Controls.Add(this.panel_conteudo);
             this.panel3.Controls.Add(this.panel_header);
             this.panel3.Controls.Add(this.panel_vertical);
+            this.panel3.Controls.Add(this.panel_conteudo);
             this.panel3.Name = "panel3";
-            // 
-            // panel_conteudo
-            // 
-            resources.ApplyResources(this.panel_conteudo, "panel_conteudo");
-            this.panel_conteudo.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel_conteudo.Name = "panel_conteudo";
             // 
             // panel_header
             // 
@@ -75,14 +73,6 @@
             this.panel_header.Name = "panel_header";
             this.panel_header.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel_header_Paint);
             this.panel_header.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mover);
-            // 
-            // panel_vertical
-            // 
-            resources.ApplyResources(this.panel_vertical, "panel_vertical");
-            this.panel_vertical.BackColor = System.Drawing.Color.Salmon;
-            this.panel_vertical.Controls.Add(this.btn_jogo);
-            this.panel_vertical.Controls.Add(this.btn_historia);
-            this.panel_vertical.Name = "panel_vertical";
             // 
             // pictureBox_menu
             // 
@@ -124,6 +114,14 @@
             this.pictureBox_maximizar.TabStop = false;
             this.pictureBox_maximizar.Click += new System.EventHandler(this.PictureBox_maximizar_Click);
             // 
+            // panel_vertical
+            // 
+            resources.ApplyResources(this.panel_vertical, "panel_vertical");
+            this.panel_vertical.BackColor = System.Drawing.Color.Salmon;
+            this.panel_vertical.Controls.Add(this.btn_jogo);
+            this.panel_vertical.Controls.Add(this.btn_historia);
+            this.panel_vertical.Name = "panel_vertical";
+            // 
             // btn_jogo
             // 
             resources.ApplyResources(this.btn_jogo, "btn_jogo");
@@ -144,6 +142,27 @@
             this.btn_historia.UseVisualStyleBackColor = true;
             this.btn_historia.Click += new System.EventHandler(this.Btn_historia_Click);
             // 
+            // panel_conteudo
+            // 
+            resources.ApplyResources(this.panel_conteudo, "panel_conteudo");
+            this.panel_conteudo.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel_conteudo.Controls.Add(this.panel1);
+            this.panel_conteudo.Controls.Add(this.pictureBox1);
+            this.panel_conteudo.Name = "panel_conteudo";
+            this.panel_conteudo.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel_conteudo_Paint);
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::Aula_23_11.Properties.Resources.play;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -154,12 +173,14 @@
             this.Name = "Form1";
             this.panel3.ResumeLayout(false);
             this.panel_header.ResumeLayout(false);
-            this.panel_vertical.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_menu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_fechar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_minimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_restaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_maximizar)).EndInit();
+            this.panel_vertical.ResumeLayout(false);
+            this.panel_conteudo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -177,6 +198,8 @@
         private System.Windows.Forms.Button btn_historia;
         private System.Windows.Forms.Button btn_jogo;
         private System.Windows.Forms.PictureBox pictureBox_menu;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

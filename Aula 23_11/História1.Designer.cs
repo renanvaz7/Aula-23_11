@@ -1,6 +1,6 @@
 ﻿namespace Aula_23_11
 {
-    partial class Jogo
+    partial class História1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,32 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Jogo));
-            this.label_titulo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label_titulo
+            // História1
             // 
-            resources.ApplyResources(this.label_titulo, "label_titulo");
-            this.label_titulo.Name = "label_titulo";
-            this.label_titulo.UseWaitCursor = true;
-            // 
-            // Jogo
-            // 
-            resources.ApplyResources(this, "$this");
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Controls.Add(this.label_titulo);
+            this.ClientSize = new System.Drawing.Size(734, 500);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Jogo";
-            this.UseWaitCursor = true;
+            this.Name = "História1";
+            this.Text = "História1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label_titulo;
     }
 }

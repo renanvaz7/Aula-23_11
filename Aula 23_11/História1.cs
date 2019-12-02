@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Aula_23_11
 {
-    public partial class Historia : Form
+    public partial class História1 : Form
     {
-        public Historia()
+        public História1()
         {
             InitializeComponent();
-        }
-
-        private void Label_texto_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

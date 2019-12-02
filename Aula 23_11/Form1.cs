@@ -87,11 +87,22 @@ namespace Aula_23_11
         private void Btn_historia_Click(object sender, EventArgs e)
         {
             AbrirFormulario(new Historia());
+            
         }
 
         private void Btn_jogo_Click(object sender, EventArgs e)
         {
             AbrirFormulario(new Jogo());
+        }
+
+        private void Panel_conteudo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
